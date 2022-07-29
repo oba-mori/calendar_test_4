@@ -38,7 +38,7 @@ window.onload = (e)=>{
 	// Calendar
 	const elem = document.getElementById("my-calendar");
 	const calendar = new FullCalendar.Calendar(elem, {
-		initialView: "dayGridMonth",
+		initialView: "timeGridDay",
 		initialDate: "2022-02-13",
 		events: events,
 		dateClick: (e)=>{
