@@ -93,7 +93,7 @@ console.log("main.js!!");
 
 
 
-
+//テスト、新しいタブで開く
 var calendar = new calenFullCalendar.Calendardar(calendarEl, {
 	events: 
 	[
