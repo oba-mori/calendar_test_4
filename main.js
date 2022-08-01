@@ -55,7 +55,7 @@ console.log("main.js!!");
 
 
 
-var calendar = new calendar(calendarEl, {
+var calendar = new calenFullCalendar.Calendardar(calendarEl, {
 	events: 
 	[
 	  {
