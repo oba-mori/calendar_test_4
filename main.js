@@ -16,8 +16,8 @@ const events = [
 	},
 	{
 		id: "b",
-		start: "2022-08-03T08:30:00",
-		end: "2022-08-03T18:30:00",
+		start: "2022-08-03",
+		end: "",
 		title: "立春",
 		description: "二十四節気の一つ",
 		backgroundColor: "green",
@@ -26,18 +26,19 @@ const events = [
 	},
 	{
 		id: "c",
-		start: "2022-08-04T08:30:00",
-		end: "2022-08-04T19:30:00",
+		start: "2022-08-04",
+		end: "",
 		title: "針供養",
 		description: "古くなった針などを神社に納めて供養する",
 		backgroundColor: "blue",
 		borderColor: "blue",
 		editable: true
 	},
+
     {
 		id: "d",					//ID
-		start: "2022-08-01T08:30:00",		//開始
-		end: "2022-08-01T17:30:00",			//終了
+		start: "2022-08-01",		//開始
+		end: "",			//終了
 		title: "タイトル：URL",		//タイトル
 		description: "内容：URL",	//内容
 		backgroundColor: "blue",	//色
