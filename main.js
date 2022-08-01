@@ -121,7 +121,7 @@ var calendar = new calenFullCalendar.Calendardar(calendarEl, {
 	}
 });
 
-
+calendar.render();
 
 
 
