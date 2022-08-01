@@ -67,17 +67,21 @@ console.log("main.js!!");
 
 // 	// Calendar
 // 	const elem = document.getElementById("my-calendar");
+	
 // 	const calendar = new FullCalendar.Calendar(elem, {
 // 		initialView: "timeGridDay",		//表示形式(1ページに1日、時間割)
 // 		// initialView: "dayGridMonth",		//表示形式(1ページに1月、日割)
 // 		initialDate: "2022-08-01",
 // 		events: events,
+
 // 		dateClick: (e)=>{
 // 			console.log("dateClick:", e);
 // 		},
+
 // 		eventClick: (e)=>{
 // 			console.log("eventClick:", e.event.title);
 // 		},
+
 // 		eventDidMount: (e)=>{
 // 			tippy(e.el, {// Tippy
 // 				content: e.event.extendedProps.description,
@@ -94,7 +98,7 @@ console.log("main.js!!");
 
 
 //テスト、新しいタブで開く
-var calendar = new calenFullCalendar.Calendardar(calendarEl, {
+var calendar = new FullCalendar.Calendardar(calendarEl, {
 	events: 
 	[
 	  {
@@ -112,6 +116,8 @@ var calendar = new calenFullCalendar.Calendardar(calendarEl, {
 		url: 'https://www.youtube.com/'	//YouTube
 	  }
 	],
+
+
 	eventClick: function(info) {
 	  info.jsEvent.preventDefault(); // don't let the browser navigate
   
