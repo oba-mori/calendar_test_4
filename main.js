@@ -37,9 +37,30 @@ const events = [
 
 
 
-    {
+    // {
+	// 	id: "id-url",				//ID
+	// 	start: "2022-08-02T20:00:00",		//開始(年:月:日T時間:分:秒)
+	// 	end: "2022-08-02T22:00:00",			//終了
+	// 	title: "タイトル：URL",		//タイトル
+	// 	description: "内容：URL",	//内容
+	// 	backgroundColor: "blue",	//色
+	// 	borderColor: "blue",		//色
+	// 	editable: true,				//
+
+	// 	// URL
+	// 	url: 'http://google.com/'
+	// },
+];
+
+
+
+
+var calendar = new Calendar(calendarEl, {
+	events: 
+	[
+	  {
 		id: "id-url",				//ID
-		start: "2022-08-02T20:00:00",		//開始
+		start: "2022-08-02T20:00:00",		//開始(年:月:日T時間:分:秒)
 		end: "2022-08-02T22:00:00",			//終了
 		title: "タイトル：URL",		//タイトル
 		description: "内容：URL",	//内容
@@ -49,10 +70,20 @@ const events = [
 
 		// URL
 		url: 'http://google.com/'
-	},
+	  }
+	],
+	eventClick: function(info) {
+	  info.jsEvent.preventDefault(); // don't let the browser navigate
+  
+	  if (info.event.url) {
+		window.open(info.event.url);
+	  }
+	}
+});
 
 
-];
+
+
 
 
 //
