@@ -7,7 +7,7 @@ const events = [
 	{
 		id: "a",
 		start: "2022-08-02",
-		end: "2022-08-02",
+		end: "",
 		title: "節分",
 		description: "悪い鬼を追い払い福を招く",
 		backgroundColor: "red",
@@ -34,7 +34,6 @@ const events = [
 		borderColor: "blue",
 		editable: true
 	},
-
     {
 		id: "d",					//ID
 		start: "2022-08-01T08:30:00",		//開始
