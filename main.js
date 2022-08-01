@@ -6,7 +6,7 @@ console.log("main.js!!");
 const events = [
 	{
 		id: "a",
-		start: "2022-02-02",
+		start: "2022-08-02",
 		end: "",
 		title: "節分",
 		description: "悪い鬼を追い払い福を招く",
@@ -16,7 +16,7 @@ const events = [
 	},
 	{
 		id: "b",
-		start: "2022-02-03",
+		start: "2022-08-03",
 		end: "",
 		title: "立春",
 		description: "二十四節気の一つ",
@@ -26,7 +26,7 @@ const events = [
 	},
 	{
 		id: "c",
-		start: "2022-02-08",
+		start: "2022-08-04",
 		end: "",
 		title: "針供養",
 		description: "古くなった針などを神社に納めて供養する",
