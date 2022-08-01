@@ -6,8 +6,8 @@ console.log("main.js!!");
 const events = [
 	{
 		id: "a",
-		start: "2022-08-02T08:30:00",
-		end: "2022-08-02T17:30:00",
+		start: "2022-08-02",
+		end: "2022-08-02",
 		title: "節分",
 		description: "悪い鬼を追い払い福を招く",
 		backgroundColor: "red",
