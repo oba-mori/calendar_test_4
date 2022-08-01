@@ -1,5 +1,8 @@
+//確認用
 console.log("main.js!!");
 
+
+//イベント追加
 const events = [
 	{
 		id: "a",
@@ -31,15 +34,25 @@ const events = [
 		borderColor: "blue",
 		editable: true
 	},
+
+    {
+		title: 'My Event',
+		start: '2020-08-01',
+		url: 'http://google.com/'
+	},
+
+
 ];
 
+
+//
 window.onload = (e)=>{
 
 	// Calendar
 	const elem = document.getElementById("my-calendar");
 	const calendar = new FullCalendar.Calendar(elem, {
-		initialView: "timeGridDay",
-		initialDate: "2022-02-13",
+		initialView: "timeGridDay",		//表示形式(1ページに1日、時間割)
+		initialDate: "2022-08-01",
 		events: events,
 		dateClick: (e)=>{
 			console.log("dateClick:", e);
