@@ -6,7 +6,7 @@ console.log("main.js!!");
 const events = [
 	{
 		id: "a",
-		start: "2022-08-02T8:30:00",
+		start: "2022-08-02T08:30:00",
 		end: "2022-08-02T17:30:00",
 		title: "節分",
 		description: "悪い鬼を追い払い福を招く",
@@ -16,7 +16,7 @@ const events = [
 	},
 	{
 		id: "b",
-		start: "2022-08-03T8:30:00",
+		start: "2022-08-03T08:30:00",
 		end: "2022-08-03T18:30:00",
 		title: "立春",
 		description: "二十四節気の一つ",
@@ -26,7 +26,7 @@ const events = [
 	},
 	{
 		id: "c",
-		start: "2022-08-04T8:30:00",
+		start: "2022-08-04T08:30:00",
 		end: "2022-08-04T19:30:00",
 		title: "針供養",
 		description: "古くなった針などを神社に納めて供養する",
@@ -37,7 +37,7 @@ const events = [
 
     {
 		id: "d",					//ID
-		start: "2022-08-01T8:30:00",		//開始
+		start: "2022-08-01T08:30:00",		//開始
 		end: "2022-08-01T17:30:00",			//終了
 		title: "タイトル：URL",		//タイトル
 		description: "内容：URL",	//内容
