@@ -10,14 +10,14 @@ const events = [
 		end: "",
 		title: "タイトル：A",
 		description: "内容：A",
-		backgroundColor: "red",
-		borderColor: "red",
+		backgroundColor: "green",
+		borderColor: "green",
 		editable: true
 	},
 	{
 		id: "b",
 		start: "2022-08-03T06:00:00",
-		end: "2022-08-03T22:00:00",
+		end: "2022-08-03T12:00:00",
 		title: "タイトル：B",
 		description: "内容：B",
 		backgroundColor: "green",
@@ -27,9 +27,9 @@ const events = [
 	{
 		id: "c",
 		start: "2022-08-04",
-		end: "",
+		end: "2022-08-04",
 		title: "タイトル：C",
-		description: "内容：V",
+		description: "内容：C",
 		backgroundColor: "blue",
 		borderColor: "blue",
 		editable: true
@@ -39,8 +39,8 @@ const events = [
 
     {
 		id: "id-url",				//ID
-		start: "2022-08-02",		//開始
-		end: "",			//終了
+		start: "2022-08-02T20:00:00",		//開始
+		end: "2022-08-02T22:00:00",			//終了
 		title: "タイトル：URL",		//タイトル
 		description: "内容：URL",	//内容
 		backgroundColor: "blue",	//色
